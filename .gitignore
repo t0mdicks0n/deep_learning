@@ -1,0 +1,15 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Python cache and virtual envs
+__pycache__/
+venv/
+env/
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore very large model files (GitHub blocks files > 100MB)
+*.pth
+*.pt
